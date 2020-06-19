@@ -14,9 +14,15 @@
  
     <h3>Existing Owner</h3>
   <% @owners.each do |owner| %>
+<<<<<<< HEAD
     <input type="radio" name="pet[owner_id][]" id="<%= owner.id %>" value="<%= owner.id %>" checked ><%= owner.name %><br>
   <% end %>
   <br>
+=======
+    <input type="radio" name="pet[owner_id][]" id="<%= owner.id %>" value="<%= owner.id %>"><%= owner.name %><br>
+  <% end %>
+    <br>
+>>>>>>> 63ec5b76e2e7e2cbf080a5ed19419f3b3216ee1b
  
     <h3>New Owner</h3>
     <label>Owner Name: </label>
